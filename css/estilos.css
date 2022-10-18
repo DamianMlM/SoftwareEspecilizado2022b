@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* Estilos CSS programados por Abraham Vega */
+
+/* Definimos color de fondo de la página web a NEGRO */
+body { 
+     /* Color de fondo */
+     background-color:#7b99ac;
+	 /* Color de los textos */
+	 color:#000000; 
+	 text-align: center;
+	 /* Colores RGB = RED - GREEN - BLUE en valor Hexadecimal */
+}
+
+/* Asi se define CSS para la ETIQUETA párrafo en GENERAL */
+p { 
+     color:#000000;
+	 text-align: center;
+  }
+	
+/* Así se define CSS para un ID en particular */
+/* Para un ID se escribe el símbolo del # y el nombre del ID */
+#parrafo2 {
+	color:#000000;
+	} 
+
+#parrafo3 {
+	color:#000000;
+	text-align:center; 
+	font-size:40px;
+	}
+	
+/* Las CLASES de CSS se definen con un PUNTO al inicio de su nombre */
+/* Las CLASES se usan para aplicar a VARIOS objetos al mismo tiempo */
+.MiClase1 {
+	color:#000000;
+	text-align:center; 
+	font-size:30px;
+	}

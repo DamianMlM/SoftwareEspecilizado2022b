@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.h1{
+    color: rgb(0, 102, 146);
+}
+.p{
+    color: rgb(70, 70, 70);
+    text-align: justify;
+
+}
+.ul{
+    list-style-type: none;
+}
+.hr{
+    color: brown;
+    width: 50%;
+}
+.text{
+    color: brown;
+}
+.selec{
+    color: rgb(0, 62, 112);
+}
+.guardar{
+    color: white;
+    background-color: black;
+}

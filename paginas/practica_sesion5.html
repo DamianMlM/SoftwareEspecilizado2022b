@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Sesion5</title>
+</head>
+<body>
+    <form action="grabar_datos_videojuego.php" method="post" id="formulariovideojuego">
+
+        <fieldset>
+            <legend>FORMULARIO PARA CAPTURA DE VIDEOJUEGOS</legend>
+            <br />
+            
+            <label for="titulo_vj"> TITULO DEL VIDEOJUEGO:</label> <br />
+            <input type="text" id="titulo_vj" name="titulo_vj" value="">
+            <br /><br />
+            
+            CONSOLA EN LA QUE SE PUEDE JUGAR: <br />
+            <select id="se_consola">
+            <option value="0"> SELECCIONA LA CONSOLA EN LA QUE SE PUEDE JUGAR ... </option> 
+            <option value="NIN"> Nintendo-switch </option>
+            <option value="XBOX"> XBox </option>
+            <option value="PS"> PlayStation</option>
+            </select>
+            <br /><br />
+            
+            <label for="precio_vj"> PRECIO DEL VIDEOJUEGO:</label> <br />
+            <input type="text" id="precio_vj" name="precio_vj" value="">
+            <br /><br />
+            
+            
+            SELECCIONA COMO TE ENTERASTE DE ESTE VIDEOJUEGO: <br />
+            <input type="radio" name="interes" value="I"> Por internet
+            <br />
+            <input type="radio" name="interes" value="TV"> Por la TV
+            <br />
+            <input type="radio" name="interes" value="A"> Por un amigo
+            <br /><br />  
+            
+            <input type="submit" value=" ..:: GUARDAR DATOS DEL VIDEOJUEGO ::.. ">
+
+        </fieldset>
+    </form>
+</body>
+</html>

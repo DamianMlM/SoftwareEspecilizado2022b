@@ -1,0 +1,68 @@
+body{
+    background-color: black ;
+}
+#contenedor{
+    width: 960px;
+    height: 650px;
+    background-color: rgb(52, 84, 63);
+    margin: auto; 
+
+}
+
+#div1{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(32, 119, 132);
+    background-image: radial-gradient(rgb(83, 228, 187), rgb(71, 219, 147));
+    float: left;
+    top: 20px;
+    left: 20px;
+    margin-right: 10px;
+    margin-right: 10px;
+    border: 3px solid rgb(49, 90, 118);
+    border-radius: 30px 20px 0px 30px;
+    box-shadow: 8px 10px 4px #88b54e;
+    font-family:TipografiaDam;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+#div2{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(179, 212, 199);
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    left: 320px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px 25px 30px 0px;
+    margin-top: 20px;
+    border: 3px dashed rgb(55, 90, 75);
+    box-shadow: -8px 8px 5px #7da87a;
+    background-image: linear-gradient(220deg , rgb(224, 224, 224), rgb(165, 189, 129));
+
+    background-image: url("../imagenes/haisenberg.png"), url("../imagenes/jesse.png");
+    background-position: right top, left top;
+    background-size: 200px 200px, 200px 200px;
+    background-repeat: no-repeat, no-repeat;
+    margin-right: 20px;
+}
+
+@font-face {
+    font-family: TipografiaDam;
+    src: url("../fuentes/anderson.ttf");
+  }
+.img{
+    margin-top: -7px;
+    width: 320px;
+    height: 220px;
+}
+
+

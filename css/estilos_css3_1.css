@@ -1,0 +1,89 @@
+*{margin: 0px; padding: 0%;}
+body{
+    background-color: black;
+}
+
+#contenedor{
+    width: 960px;
+    height: 1170px;
+    background-color: rgb(243, 243, 243);
+    margin: auto;
+    position: relative;
+}
+
+#banner{
+    width: 880px;
+    height: 200px;
+    background-color: rgb(93, 141, 141);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    position: absolute;
+    /* float: right; */
+
+}
+
+#navegacion{
+    width: 880px;
+    height: 50px;
+    background-color: rgb(177, 210, 214);
+    /* margin: auto; */
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 240px;
+    border-top: 10px;
+    position: relative;
+    /* float: right; */
+}
+
+#bienvenida{
+    width: 880px;
+    height: 320px;
+    background-color: rgb(143, 185, 197);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 280px;
+    position: relative;
+    clear: both;
+}
+#bloque1{
+    width: 286px;
+    height: 400px;
+    background-color: rgb(118, 148, 134);
+    margin-left: 40px;
+    /* margin-right: 10px; */
+    margin-top: 610px;
+    float: left;
+    
+}   
+#bloque2{
+    width: 286px;
+    height: 400px;
+    background-color: rgb(180, 204, 193);
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 610px;
+    float: left;
+}
+#bloque3{
+    width: 286px;
+    height: 400px;
+    background-color: rgb(157, 183, 181);
+    /* margin-left: 10px; */
+    margin-right: 40px;
+    margin-top: 610px;
+    float: left;
+    
+
+}
+#pie{
+    clear: both;
+    width: 880px;
+    height: 100px;
+    background-color: rgb(164, 164, 164);
+    margin-top: 1020px;
+    position: absolute;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+

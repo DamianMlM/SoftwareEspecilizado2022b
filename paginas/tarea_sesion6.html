@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .div-header{
+           text-align: center;
+           background-color: black;
+           border-left: 0px;
+           margin-left: 0px;
+           padding-left: 0%;
+        }
+        .logo-img{
+            width: 6% ;
+            height: 6%;
+        }
+        .nav{
+            background-color: rgb(50, 50, 50);
+            text-align: center;
+            margin: auto;
+            
+        }
+        .nav-a{
+            color: white;
+            margin-right: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .article1{
+
+            background: url("../imagenes/lambo11.jpg");
+            padding-bottom: 600px;
+            /* margin-right: 15%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 1%;
+            padding-bottom: 350px;
+            /* margin-top: -0.5%; */
+        }
+        .div-art1{
+            width: 70%;
+            background-color: rgba(0, 0, 0, 0.64);
+            color: white;
+            margin-left: 2%;
+            
+           
+        }
+
+        .h2sec-art1{
+            margin-left: 4%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #837f52;
+        }
+        .p-art1{
+            margin-left:2% ;
+            margin-right: 2%;
+            text-align: justify;
+        }
+        .article2{
+            background: url("../imagenes/lambo2.jpg");
+            padding-bottom: 450px;
+            /* margin-right: 15%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 0%;
+            align-content: center;
+            align-items: center;
+            margin-top: 1%;
+            
+        }
+        .div-art2{
+            width: 40%;
+            background-color: rgba(0, 0, 0, 0.89);
+            color: white;
+            /* margin-top: 20%; */
+            /* margin-top: auto; */
+            margin-left: 55%;
+            /* margin: auto; */
+        }
+        .ul-art2{
+            margin-left:4% ;
+            margin-right: 2%;
+            text-align: justify;
+        }
+        .article20{
+            background: url("../imagenes/artfaltante.JPG");
+            padding-bottom: 450px;
+            /* margin-right: 15%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 0%;
+            align-content: center;
+            align-items: center;
+            margin-top: 1%;
+            
+        }
+        .div-art20{
+            width: 40%;
+            background-color: rgba(0, 0, 0, 0.89);
+            color: white;
+            /* margin-top: 20%; */
+            /* margin-top: auto; */
+            margin-left: 5%;
+            /* margin: auto; */
+        }
+        .ol-art20{
+            margin-left:4% ;
+            margin-right: 2%;
+            text-align: justify;
+        }
+
+        .div-art3{
+            width: 60%;
+            background-color: rgba(0, 0, 0, 0.89);
+            color: white;
+            margin-left: 2%;
+        }
+        .article3{
+            background: url("../imagenes/lamb033.jpg");
+            padding-bottom: 300px;  
+            /* margin-right: 15%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 1%;
+        }
+        .h1sec-art3{
+            margin-left: 10%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .tabla-art3{
+                table-layout: auto;
+                width: 90%;
+                text-align: center;
+                border-style: double;
+                border:1px solid rgb(87, 87, 41);
+                margin-left: 5%;
+                box-shadow: 5px 4px 3px #837f52;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .celdas{
+            border:2px solid rgb(179, 169, 115) ;
+            border-style: double;
+        }
+        .article4{
+            background: url("../imagenes/lambo444.jpg");
+            padding-bottom: 600px;
+            /* margin-right: 15%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 1%;
+        }
+        .h2sec-art4{
+            margin-left: 4%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #000000;
+            margin: auto;
+            text-align: center;
+        }
+        .div-art4{
+            width: 40%;
+            background-color: rgba(0, 0, 0, 0.79);
+            color: white;
+            /* margin-top: 20%; */
+            /* margin-top: auto; */
+            /* margin-left: 55%; */
+            margin: auto;
+            text-align: center;
+        }
+        .article5{
+            background: url("../imagenes/lambo3.jpg");
+            padding-bottom: 340px;
+            /* margin-right: 15%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 1%;
+        }
+        .div-art5{
+            width: 60%;
+            background-color: rgba(0, 0, 0, 0.79);
+            color: white;
+            margin: auto;
+            text-align: center;
+        }
+        .article6{
+            background: url("../imagenes/lambo66.jpg");
+            padding-bottom: 300px;
+            /* margin-right: 15%; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: content-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 1%;
+        }
+        .div-art6{
+            width: 80%;
+            background-color: rgba(0, 0, 0, 0.79);
+            color: white;
+            margin: auto;
+            text-align: center;
+        }
+        .h2sec-art6{
+            color: white;
+            margin-left: 30%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        .tabla-art6{
+                table-layout: auto;
+                width: 90%;
+                text-align: center;
+                border-style: double;
+                border:1px solid rgb(87, 87, 41);
+                margin-left: 5%;
+                box-shadow: 5px 4px 3px #837f52;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .celdas{
+            border:2px solid rgb(179, 169, 115) ;
+            border-style: double;
+            /* width: min-content;
+            height: min-content; */
+        }
+        .imgc{
+             width: 250px;
+            height: 125px; 
+        }
+        .seccion{
+            margin-right: 15%;
+        }
+        .aside{
+            background-color: rgb(0, 0, 0);
+            margin-left: 85%; 
+            margin-top: -317.40%;
+            position: relative;
+            padding-bottom: 59%;
+        }
+        .img-aside{
+             width:222px;
+            /* height: 250px;  */
+            text-align: center;
+            margin-bottom: 150%;
+            margin-left: 10px;
+            
+        }
+
+        .footer{
+            /* margin-top: 120px; */
+            text-align: center;
+            background-color: #000000;
+            padding: 0.1px;
+            border-style: outset;
+           
+        }
+
+        .tfooter{
+            margin-left: 15%;
+            margin-right: 10%;
+            /* margin-top: 10px; */
+            margin-bottom: 10px;
+        }
+        .d{
+           
+            text-align: center;
+            padding-left: 10px;
+            color: white;
+        }
+    </style>
+
+    <title>PRACTICA DE LA SESION</title>
+</head>
+
+<body style="background-color:black ;">
+    <header>
+        <div class="div-header">
+            <img src="../imagenes/logo.png" alt=""  class="logo-img">
+            <br>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <br>
+        <a href="https://bit.ly/3LLf7d6" class="nav-a">MODELO</a>
+        <a href="https://bit.ly/3LJaFvA" class="nav-a">SERVICIOS A LA MEDIDA</a>
+        <a href="https://bit.ly/3M0hQzL" class="nav-a">SERVICIO AL CLIENTE</a>
+        <a href="https://bit.ly/3SDCV55" class="nav-a">MOTORSPORT</a>
+        <a href="https://bit.ly/3dLTnkI" class="nav-a">CONCESIONARIOS</a>
+        <a href="https://bit.ly/3r8oHx9" class="nav-a">MUSEO </a>
+        <a href="https://bit.ly/3r6lE8V" class="nav-a">STORE </a>
+        <br /><br />
+    </nav>
+
+    <section class="seccion">
+        <h2>PRIMERA SECCION</h2>
+        <article class="article1" > 
+            <h2 class="h2sec-art1">LAMBORGHINI AVENTADOR</h2>
+            <div  class="div-art1">
+               
+                <p class="p-art1">El Aventador fue creado con el objetivo de adelantarse al futuro, como se refleja en el uso de tecnologías
+                    innovadoras, tales como el motor V12, y en el uso de la 
+                    fibra de carbono. Verdaderas obras maestras 
+                    de diseño que expresan dinamismo y agresividad y que han hecho  del monocasco de carbono su punta  de  lanza.
+                    El interior del Aventador combina tecnologías
+                    de altísimo nivel y equipamientos de lujo con 
+                    materiales de altísima calidad magistralmente elaborados, como exige la mejor tradición italiana.</p>
+                    <br />
+                </div>
+        </article>
+        <article class="article2"> 
+            <br />
+            <div class="div-art2">
+                <h2 class="ul-art2">ACCESORIOS EXTRA </h2>
+                <ul class="ul-art2">
+                    <li>PORTABICILETAS</li>
+                    <li>ESCAPE DE TITANIO</li>
+                    <li>PET CARE</li>
+                    <li>COMPONENTES EN FIBRA DE CARBONO</li>
+                    <li>PROTECCION PARA EL INTERIOR</li>
+            </ul>
+                <br />
+            </div>
+        </article>
+        <article class="article20"> 
+            <br />
+            <div class="div-art20">
+                <h2 class="l-art2">SERVICIOS AL CLIENTE </h2>
+                <ol class="ul-art2">
+                    <li><a href="https://bit.ly/3xRnLkA" class="d">
+                        CONNECTIVITY  </a></li>
+                    <li><a href="https://bit.ly/3xWQFjr" class="d">
+                        APLICACION PARA CLIENTES</a></li>
+                    <li><a href="https://bit.ly/3LJaQXM"  class="d"> 
+                        MOVILITY PROGRAM </a></li>
+                    <li><a href="https://bit.ly/3LMLMz5"  class="d">
+                        CLASICOS</a></li>
+                    <li><a href="https://bit.ly/3rcG4x4"  class="d">
+                        SERVICE </a></li>
+                    <li><a href="https://bit.ly/3CceOVu"  class="d">
+                        CAMPAÑAS DE REVISION  </a></li>
+                </ol>
+                <br />
+            </div>
+        </article>
+            
+        <article class="article3">
+            
+            <div class="div-art3">
+                <br />
+                <h2 class="h1sec-art3">ALGUNOS MODELOS  LAMBORGHINI</h2>
+                <table class="tabla-art3">
+                    <tr>
+                       <th class="celdas">AVENTADOR</th>
+                       <th class="celdas">HURACAN</th>
+                       <th class="celdas">URUS</th>
+                       
+                    </tr>
+                    <tr>
+                        <td class="celdas">AVENTADOR LP 780-4 ULTIMATE</td>
+                        <td class="celdas">HURACAN TECNICA</td>
+                        <td class="celdas">URUS PERFORMANTE</td>
+                      
+                    </tr>
+                    <tr>
+                        <td class="celdas">AVENTADOR LP 780-4 ULTIMATE ROADSTER</td>
+                        <td class="celdas">HURACAN EVO SPYDER</td>
+                        <td class="celdas">URUS PEARL CAPSULE</td>
+                    </tr>
+                    <tr>
+                        <td class="celdas">AVENTADOR SVJ</td>
+                        <td class="celdas">HURACAN STO</td>
+                        <td class="celdas">URUS GRAPHITE CAPSULE</td>
+                    </tr>
+                    <tr>
+                        <td class="celdas">AVENTADOR SVJ ULTIMATE</td>
+                        <td class="celdas">HURACAN EVO RWD SPYDER</td>
+                        <td class="celdas">URUS</td>
+                    </tr>
+                </table>
+                <br /> <br />
+            </div>
+        </article>
+    </section>
+
+    <section class="seccion">
+        <H2>SEGUNDA SECCION</H2>
+        <article class="article4">
+            <h2 class="h2sec-art4">ESCUCHA A LA BESTIA...</h2>
+            <div class="div-art4">
+                <audio controls>
+                    <source src="../multimedia/audio-lambo.mp3" type="audio/mpeg" />
+                    <source src="../multimedia/audio-lambo.ogg" type="audio/ogg" />
+                    
+                </audio>
+            </div>
+        </article>
+
+        <article class="article5">
+           
+            <div class="div-art5">
+                <h2>OBSERVA ESTO...</h2>
+                <video width="650" height="380" controls>
+                    <source src="../multimedia/aventador.mp4" type="video/mp4" />
+                    <source src="../multimedia/aventador.ogv" type="video/ogv" />
+                   
+                </video> 
+                 <br /> <br />
+            </div>
+        </article>
+        <article class="article6">
+            <h2 class="h2sec-art6">LAS MEJORES OPCIONES DE COMPRA</h2>
+            <br /> 
+            <div class="div-art6"><br />
+                <table class="tabla-art6"> 
+                    <tr>
+                        <td class="celdas"> <a href="https://bit.ly/3DS2zPj">
+                            <img src="../imagenes/even_ultimate.JPG" alt="aventador-lp-780" class="imgc"></a>
+                        </td>
+                        <td class="celdas"> <a href="https://bit.ly/3RjO3CS">
+                            <img src="../imagenes/urtec.JPG" alt="huracan_t" class="imgc"> </a>
+                        </td>
+                        <td class="celdas"> <a href="https://bit.ly/3foU4Rp">
+                            <img src="../imagenes/urus_perfo.JPG" alt="urus_perf" class="imgc"> </a>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td class="celdas"> <a href="https://bit.ly/3xQaaKr">
+                            <img src="../imagenes/aventador_svj_r_g3.jpg" alt="aventador-svj-r" class="imgc"></a>
+                        </td>
+                        <td class="celdas"> <a href="https://bit.ly/3SnGI6U">
+                             <img src="../imagenes/sto.JPG" alt="huracan_sto" class="imgc"> </a>
+                        </td>
+                        <td class="celdas"> <a href="https://bit.ly/3SDBGmu">
+                            <img src="../imagenes/urus_pearl_04.jpg" alt="urus_pearlc" class="imgc"></a>
+                        </td>
+                    </tr> 
+                </table><br />
+            </div>
+        </article>
+        
+    </section>
+    <aside class="aside">
+        <div>
+               <a href="https://amzn.to/3UL1Bdx">
+                <img src="../imagenes/amazon.jpg" alt="amazon" class="img-aside"></a>
+              
+
+                <a href="https://bit.ly/3fr5lRy"> 
+                    <img src="../imagenes/trivago.png" alt="trivago" class="img-aside"></a>
+                   
+
+                <a href="https://bit.ly/3r7DR5Z">
+                 <img src="../imagenes/youtubbb.JPG" alt="youtube" class="img-aside"></a>
+                
+                <a href="https://bit.ly/3dJB4N4">
+                 <img src="../imagenes/faceee.JPG" alt="fb" class="img-aside"></a>
+                  
+
+                <a href="https://bit.ly/3r8t4Iu"> 
+                 <img src="../imagenes/pint.jpg" alt="pint" class="img-aside"></a>
+                  
+                <a href="https://bit.ly/3Sr4wGu"> 
+                 <img src="../imagenes/mclibre.png" alt="mlib" class="img-aside"></a>
+                  
+                <a href="https://bit.ly/3radiNn"> 
+                 <img src="../imagenes/gith.png" alt="git" class="img-aside"></a>
+        </div>
+    </aside>
+
+    <footer>
+        <div class="footer">
+            <table class="tfooter">
+                <tr>
+                    <td class="d"> <a href="https://bit.ly/3E1rU9H" class="d">
+                        DamianMlM   |Github</a>
+                    </td>
+                    <td class="d">Derechos Reservados</td>
+                    <td class="d">Leonel Damian Mariscal Miranda</td>
+                    <td class="d">Lic. Tecnologias de la informacion</td>
+                    <td class="d">Software especializado</td>
+                    <td class="d"> <a href="https://bit.ly/3SfzUI9" class="d">
+                        Opciones para los anuncios</a>
+                    </td>
+                </tr> 
+            </table>
+            </div>
+    </footer>
+</body> 
+</html>

@@ -1,0 +1,23 @@
+*{margin: 0px; padding: 0%;}
+
+.parr{
+    border-bottom: 2px solid rgb(35, 136, 179);
+    padding: 10px;
+}
+.div{
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    margin-bottom: 5px;
+}
+.liga{
+    background-color: gray;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+ }
+.celdas{
+    padding: 10px;
+    border: 1px solid black ;
+}
